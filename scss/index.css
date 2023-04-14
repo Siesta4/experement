@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "DM Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  position: relative;
+}
+
+.logo-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #244D4D;
+}
+
+.menu-link {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #161616;
+}
+
+.logo-main-1 {
+  width: 400px;
+  height: 560px;
+  z-index: 1;
+}
+
+.logo-main-2 {
+  width: 1200px;
+  height: 560px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 44px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 50px;
+       column-gap: 50px;
+  list-style: none;
+}
+
+.menu-link {
+  text-decoration: none;
+}
+
+.logo-main-1 {
+  top: 35 px;
+  left: 0;
+  position: absolute;
+}
+
+.men {
+  position: absolute;
+  top: 400px;
+  left: 700px;
+  color: aliceblue;
+}
+
+.main-block {
+  padding-top: 27px;
+}
+
+li {
+  margin-right: 50px;
+}
+
+.logo-header-1 {
+  width: 24px;
+  height: 24px;
+}
+
+.logo-header-2 {
+  width: 24px;
+  height: 24px;
+}/*# sourceMappingURL=index.css.map */
